@@ -1,3 +1,7 @@
+$(window).on('load', function () {
+  $(".loader-wrapper").fadeOut("slow");
+});
+
 $(document).ready(function () {
 
     $("a").on('click', function (event) {
