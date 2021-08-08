@@ -57,22 +57,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* 
-.dark-mode-toggle {
-    position: absolute; 
-    z-index: 100;
-    top: 3em;
-    right: 1.75em;
-    color: var(--foreground);
-    border: 2px solid currentColor;
-    padding: 4px;
-    background: transparent;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-} */
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -497,4 +481,47 @@ footer a:hover,
 
 .social-list__link {
     padding: .5em;
+}
+
+
+@media (max-width:365px) {
+    .portfolio__img {
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .portfolio__item {
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .footer__link {
+        font-size: .7em;
+    }
+
+    #work {
+        padding: 1.75em;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:218px) {
+    .portfolio__img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .portfolio__item {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .footer__link {
+        font-size: .5em;
+    }
+
+    #work {
+        padding: 1.55em;
+        margin: 0 auto;
+    }
 }
