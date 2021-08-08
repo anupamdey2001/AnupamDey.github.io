@@ -62,7 +62,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #242f3f;
+    background-color: var(--clr-accent);
     display: flex;
     justify-content: center;
     align-items: center;
