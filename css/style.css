@@ -163,7 +163,7 @@ strong {
 }
 
 .btn {
-    border-radius: .25rem;
+    border-radius: .5rem;
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
